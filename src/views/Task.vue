@@ -11,7 +11,7 @@
         @keyup.enter="updateTask($event, 'name')"
       />
       <textarea
-        class="relative bg-transparent px-2 border mt-2 h-64 border-none leading-normal"
+        class="relative bg-transparent w-full px-2 border mt-2 h-64 border-none leading-normal"
         :value="task.description"
         @change="updateTask($event, 'description')"
       />
