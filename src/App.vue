@@ -17,9 +17,7 @@ html {
   text-align: center;
   color: #2c3e50;
   background: #00796b;
+  width: fit-content;
   height: 100%;
-}
-.container {
-  @apply mx-auto;
 }
 </style>
